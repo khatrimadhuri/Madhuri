@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Responsive Gallery</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: #f2f2f2;
+	  
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+      max-width: 800px;
+      padding: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 200px;
+      display: block;
+      border-radius: 8px;
+    }
+
+    @media screen and (max-width: 600px) {
+      .gallery {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="gallery">
+    <img src="Img/image1.JFIF" alt="Image 1">
+    <img src="Img/image2.JFIF" alt="Image 2">
+    <img src="Img/image3.JFIF" alt="Image 3">
+    <img src="Img/image4.JFIF" alt="Image 4">
+    <img src="Img/image5.JFIF" alt="Image 5">
+    <img src="Img/image6.JFIF" alt="Image 6">
+  </div>
+</body>
+</html>

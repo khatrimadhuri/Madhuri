@@ -1,0 +1,81 @@
+ <!-- 1. Createthree buttons in HTML: "Primary," "Secondary," and "Danger."
+ 2. Style each button in CSS:
+ o Setdistinct background colors for each button.
+ o Addpadding,roundedcorners, and a shadow effect.
+ o Changethebuttoncoloron hover.
+ o Addtransitions to make the hover effect smooth -->
+ 
+ <!DOCTYPE html>
+	<html lang="en">
+	<head>
+	  <meta charset="UTF-8">
+	  <title>Styling Buttons</title>
+	  <style>
+		body {
+		  margin: 0;
+		  padding: 0;
+	
+		}
+		
+		#btn1{
+			background-color:gray;
+			color:blue;
+			border:solid 2px aqua;
+			border-radious:8px;
+			padding:5px;
+			box-shadow:5px 5px yellow;
+			cursor:pointer;
+			
+		}
+		
+		#btn2{
+			background-color:pink;
+			color:blue;
+			border:solid 2px aqua;
+			border-radious:8px;
+			padding:5px;
+			box-shadow:5px 5px yellow;
+			cursor:pointer;
+		}
+		
+		#btn3{
+			background-color:green;
+			color:white;
+			border:solid 2px aqua;
+			border-radious:8px;
+			padding:5px;
+			box-shadow:5px 5px yellow;
+			cursor:pointer;
+			
+		}
+		
+		#btn1:hover{
+			 background-color: black;
+			 color:white;
+			 transition-duration:3s;
+		}
+		
+		#btn2:hover{
+			 background-color: black;
+			 color:white;
+			 transition-duration:3s;
+		}
+		
+		#btn3:hover{
+			 background-color: black;
+			 color:white;
+			 transition-duration:3s;
+		}
+		
+		
+	  </style>
+	</head>
+	<body>
+		<h3> Welcome to My page</h3>
+			
+		<button id="btn1"> Primary </button>
+		<button id="btn2"> Secondary </button>
+		<button id="btn3"> Danger </button>
+		
+	</body>
+	</html>

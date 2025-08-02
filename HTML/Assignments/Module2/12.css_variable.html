@@ -1,0 +1,52 @@
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Themed Webpage</title>
+  <style>
+    /* Define CSS variables */
+    :root {
+      --primary-color: #3498db;
+      --secondary-color: #2ecc71;
+      --text-color: #ffffff;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: var(--primary-color);
+	  color: var(--text-color);
+    }
+
+    header, footer {
+      background-color: var(--secondary-color);
+      padding: 1em;
+      text-align: center;
+      border-bottom: 2px solid var(--text-color);
+    }
+
+    main {
+      padding: 2em;
+      text-align: center;
+      border: 2px solid var(--text-color);
+      margin: 1em;
+      background-color: var(--primary-color);
+    }
+	 h1, p {
+      margin: 0.5em 0;
+    }
+  </style>
+</head>
+	<body>
+	  <header>
+		<h1>Welcome to My Webpage</h1>
+	  </header>
+	  <main>
+		<p>This is the main content area. Change the CSS variables to update the theme!</p>
+	  </main>
+	  <footer>
+		<p>© 2025 My Website</p>
+	  </footer>
+	</body>
+</html>

@@ -1,0 +1,71 @@
+ <!--Createa simple contact form with fields for name, email, and message.
+ 2. InyourCSS file:
+ o Styleeachformfield with padding, border, and background color.
+ o Stylethesubmit button with a distinct color, padding, and rounded corners.
+ o Addfocuseffects for input fields.
+ o Centertheformonthepage-->
+ 
+ 
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact form</title>
+  <style>
+	body{
+		margin:20px;
+		padding:20px;
+		justify-content:center;
+		border:solid 2px black;
+		text-align:center;
+				
+	}
+    .lbl1{
+		background-color:gray;
+		color:white;
+		padding:20px;
+		
+		
+	}
+	.lbl2{
+		background-color:gray;
+		color:white;
+		padding:20px;
+	
+	}
+	.lbl3{
+		background-color:gray;
+		color:white;
+		padding:20px;
+		
+	}
+	.submit{
+		background-color:black;
+		color:gray;
+		border-radius:8px;
+		padding:5px;
+		button-size:20px;
+		
+	}
+	h2{
+		color:black;
+		font-weight:bold;
+		font-size:50px;
+	}
+	input:focus{
+		background-color:lightgray;
+	}
+	
+  </style>
+</head>
+	<body>
+		<h2> Contact Me</h2>
+		<form method="post">
+			<label name="lbl1" for="Name"><b>Name: <input type="text" name="fname" placeholder="Enter your Name" required pattern="[a-zA-Z]+"/></label><br><br>
+			<label name="lbl2" for="Email"> <b>Email: <input type="Email" name="Email" required /></label><br><br>
+			<label name="lbl3" for="Message"> <b>Message: <input type="text" name="Message" required /></label><br><br>
+			<input type="submit" Name="submit" style="font-weight:bold" />
+		</form>
+	</body>
+</html>
