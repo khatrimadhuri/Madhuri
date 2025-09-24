@@ -1,0 +1,286 @@
+<html>
+	<head>
+		<title> Makemytrip Website
+		</title>
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<style>
+			*{
+				box-sizing:border-box;
+			
+			}
+			.bgimg{
+					background-image:url(MMt/bg1.JFIF);
+					background-repeat:no-repeat;
+					background-size:100% 100%;
+					background-attachment: fixed;
+					text-align:center;
+					height:100%;
+			}
+			.header{
+					width:100%;
+					background-color:transparent;
+					position:sticky;
+					top:0px;
+			}
+			.navbar{
+					
+					
+					width:70%;
+					display:inline-block;
+					padding:10px;
+					background-color:white;	
+					float:left;
+					text-align:justify;
+					border:solid 3px gray;	
+					border-radius: 20px;
+					position:absolute;
+					top:70px;
+					left:150px;
+					
+			}
+			.navbar a{
+			
+						text-decoration:none;
+						width:70px;
+						height:80px;
+						float:left;
+						padding:5px;
+						padding-bottom:10px;
+						
+						text-align:center;
+			}
+			.navbar a img{
+			
+							width:50px;
+							height:50px;
+							
+			}
+			
+			.second{
+					margin:10px;
+					margin-top:100px;
+					padding-top:100px;
+					padding-left:3px;
+					
+					width:98%;
+					height:300px;
+					background-color:white;	
+					float:left;
+					text-align:center;
+					border:solid 1px gray;
+					display:flex;
+					flex-wrap:wrap;
+					border-radius:20px;
+			}
+			.grid{
+			
+					display:grid;
+					padding-top:10px;
+					padding-left:3px;
+					padding-bottom:20px;
+					margin:10px;
+					margin-top:30px;
+					
+					width:98%;
+					height:200px;
+					background-color:white;	
+					float:left;
+					text-align:center;
+					border:solid 1px gray;
+					display:flex;
+					flex-wrap:wrap;
+					border-radius:20px;
+				
+			}
+			
+			.col-1{width:8.33%}
+			.col-2{width:16.66%}
+			.col-3{width:25%}
+			.col-4{width:33.33%}
+			.col-5{width:41.66%}
+			.col-6{width:50%}
+			.col-7{width:58.33%}
+			.col-8{width:66.66%}
+			.col-9{width:75%}
+			.col-10{width:83.33%}
+			.col-11{width:91.66%}
+			.col-12{width:100%}
+			
+			.h3{
+				float:left;
+				text-align:center;
+				color:gray;
+			}
+			
+			p{
+				float:left;
+				font-family:aerial;
+				font-size:15px;
+				text-align:left;
+			}
+			h1{
+				float:left;
+
+			}
+			.label1{
+					
+				background-color:white;
+				color:black;
+			}
+			.grid dl dt{
+				font-weight:bold;
+				font-size:20px;
+				font-family:aerial;
+			
+			}
+			
+		</style>
+		
+	</head>
+	
+	<body>
+		<div class="bgimg">
+				
+			<header>
+				<div class="col-4 header">
+					<img src="MMt/mm1.PNG" style="width:200px;position:fixed; top;0px; left:10px;" />
+					
+				</div>	
+			</header>
+				
+
+				<div style="position:relative">
+					<div class="navbar">
+						
+						<!--<a href=""><img src="MMt/flight.JFIF"  alt="flight">Flights</a>
+						<a href=""><img src="MMt/Hotel.JFIF" alt="Hotels">Hotels</a>
+						<a href=""><img src="MMt/Homestay.WEBP" alt="Homestays">Homestays</a>
+						<a href=""><img src="MMt/Holiday.WEBP" alt="Holiday packages">Holiday packages</a>
+						<a href=""><img src="MMt/Train.WEBP" alt="Trains">Trains</a>
+						<a href=""><img src="MMt/Bus.WEBP" alt="Buses">Buses</a>
+						<a href=""><img src="MMt/Cabs.WEBP" alt="Cabs">Cabs</a>
+						<a href=""><img src="MMt/Tours.WEBP" alt="Tours">Tours & Attraction</a>
+						<a href=""><img src="MMt/Visa.WEBP" alt="Visa">Visa</a>
+						<a href=""><img src="MMt/Forex.JFIF" alt="Forex card">Forex Card</a>
+						<a href=""><img src="MMt/Insaurance.WEBP" alt="Travel insaurance">Travel Insurance</a> 
+					-->
+						<i class="fa-solid fa-plane-departure"></i><br>Flights
+						<i class="fa-solid fa-hotel"></i><br> Hotel
+						
+					</div>
+				
+					<div class="second">
+						
+						<div class="col-12">
+							
+							<h3>Book your ideal Homestay - Villas, Apartments & more.</h3>
+						
+						</div>
+						<br>
+						<div class="col-4 p h1">		
+							<p>City,Property Name Or Location</p>
+							<br>
+							<h1>Goa,India</h1>
+						
+							
+						</div>
+						
+						<div class="col-2 label1">
+								<label for="checkin">Checkin:</label>
+								<br>
+								<br>
+								<input type="date" id="checkin" name="checkin" min="2025-07-10">
+							    <h3>Selcet Date</h3>
+						</div>
+						
+						<div class="col-2 label1">
+							<label for="CheckOut">CheckOut:</label>
+							<br>
+							<br>
+							<input type="date" value="CheckOut" name="CheckOut" min="2025-07-10">
+							<h3>Selcet date</h3>
+								
+						</div>
+						
+						<div class="col-2 label1">
+							<label for="Guest"> Guests:</label>
+							<br>
+							<br>
+							<input type="numbers" value="Guest" name="Guest" style="width:100px" required >
+							<h3>Selcet Members</h3>
+						</div>
+						
+						<div class="col-2 label1">
+							<label for="Price">Price per night:</label>
+							<br>
+							<br>
+							<input type="numbers" value="Price" name="Price" style="width:100px" required >
+							<h3>₹0-₹1500, ₹1500-₹2500,...</h3>
+						</div>
+						
+					</div>
+					<div>
+							<button style="color:black;background-color:blue; font-size:20px; color:white; font-weight:bolder; width:200px; height:40px; border-color:solid 2px gray; border-radius:5px; position:relative; left:50px; bottom:30px">Search</button>
+					</div>
+				</div>
+		
+			
+				<div class="grid">
+					<div class="col-4 ">
+						<dl>
+							<dt>GOA</dt>
+							<dd>Homestays & Villas</dd>
+						</dl>
+						<dl>
+							<dt>Mumbai</dt>
+							<dd>Homestays & Villas</dd>
+						</dl>
+					
+						<dl>
+							<dt>Delhi</dt>
+							<dd>Homestays & Villas</dd>
+						</dl>
+					</div>
+						
+					<div class="col-4">
+						
+						<dl>
+							<dt>Mukteshwar</dt>
+							<dd>Homestays & Villas</dd>
+						</dl>
+						
+						<dl>
+							<dt>Gokarna</dt>
+							<dd>Homestays & Villas</dd>
+						</dl>
+						
+						<dl>
+							<dt>Coonoor</dt>
+							<dd>Homestays & Villas</dd>
+						</dl>
+					</div>
+						
+					<div class="col-4">
+					
+						<dl>
+							<dt>Kasol</dt>
+							<dd>Homestays & Villas</dd>
+						</dl>
+						
+						<dl>
+							<dt>Malvan</dt>
+							<dd>Homestays & Villas</dd>
+						</dl>
+						
+						<dl>
+							<dt>Jibhi</dt>
+							<dd>Homestays & Villas</dd>
+						</dl>
+						
+					</div>
+				</div>
+		</div>
+			
+	</body>
+</html>

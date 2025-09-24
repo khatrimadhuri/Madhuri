@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>doctor</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="medinest.css" rel="stylesheet">
+	
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+	
+	<!-- bootestrap5 icon cdn -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+	<body>
+	
+		<div class="container">
+		<!--<div class="row bg-light pt-3">-->
+			<div class="row">
+			<nav class="navbar navbar-expand-sm bg-light">
+				<div class="navbar-text ps-5 " href="#">Medi<span style="color:#14AFC2">Nest</span></div>
+				
+				<ul class="navbar-nav ms-5">
+					<li class="nav-item"> 
+						<a class="nav-link" href="#" style="color:#14AFC2">Home</a>
+					</li>
+					<li class="nav-item"> 
+						<a class="nav-link" href="#">About</a>
+					</li>
+					<li class="nav-item"> 
+						<a class="nav-link" href="#">Departments</a>
+					</li>
+					<li class="nav-item"> 
+						<a class="nav-link" href="#">services</a>
+					</li>
+					<li class="nav-item"> 	
+						<a class="nav-link" href="doctor.html">Doctors</a>
+					</li>
+					<li class="nav-item dropdown"> 
+						<a class="nav-link dropdown-toggle" id="navbar-drop" data-bs-toggle="dropdown" href="#">More Pages</a>
+						
+						<div class="dropdown-menu">
+							<a href="#" class="dropdown-item">Department-Details</a>
+							<a href="#" class="dropdown-item">Service Details</a>
+							<a href="#" class="dropdown-item">Appointment</a>
+							<a href="#" class="dropdown-item">Testimonials</a>
+							<a href="#" class="dropdown-item">Frequently Asked Questions</a>
+							<a href="#" class="dropdown-item">Gallery</a>
+							<a href="#" class="dropdown-item">Terms</a>
+							<a href="#" class="dropdown-item">Privacy</a>
+							<a href="#" class="dropdown-item">404</a>
+						</div>
+					</li>
+					
+					<li class="nav-item dropdown"> 
+						<a class="nav-link dropdown-toggle" id="navbar-drop" data-bs-toggle="dropdown" href="#">Dropdown</a>
+						
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">Dropdown</a>
+							
+							<a class="nav-link dropdown-toggle" id="navbar-drop1" data-bs-toggle="deepdropdown" href="#">Deep Dropdown</a>
+								
+																
+								<div class="dropdown-menu1">
+									<a class="dropdown-item" href="#">Deep dropdown1</a>
+									<a class="dropdown-item" href="#">Deep dropdown2</a>
+									<a class="dropdown-item" href="#">Deep dropdown3</a>
+									<a class="dropdown-item" href="#">Deep dropdown4</a>
+									<a class="dropdown-item" href="#">Deep dropdown5</a>
+								
+								</div>
+							
+							<a class="dropdown-item" href="#">Dropdown2</a>
+							<a class="dropdown-item" href="#">Dropdown3</a>
+							<a class="dropdown-item" href="#">Dropdown4</a>
+						</div>
+					</li>
+					<li class="nav-item"> 
+						<a class="nav-link" href="#">Contact</a>
+					</li>
+					
+					<li class=" ms-3 btn btn-primary " style="color:white; background-color:#14AFC2">Appointment</li>
+			
+				</ul>
+				
+			</nav>		
+		
+		</div>
+		</div>
+		<!-- main section -->
+			
+			<main class="container-fluid">
+				
+				
+					<h1> Doctors </h1>
+					<p> Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.s </p>
+				
+			
+			</main>
+			
+			
+				<div class="container-fluid">
+					  <ol class="breadcrumb">
+						<li class="breadcrumb-item"><a class="text-decoration-none" href="MediNest.html">Home</a></li>
+						<li class="breadcrumb-item active">Doctor</li>
+					  </ol>
+				</div>
+			
+			<br>
+			<br>
+			<br>
+			<!-- input data -->
+			<div class="container-fluid">
+			<div class="info">
+				<div class="row">
+					<div class="col-3">
+						<div class="form-group">
+							<label for="doc_name"><b>Search doctors:</b></label>
+							<input type="text" class="form-control" placeholder="Type a name OR Keyword"/>
+						</div>
+					</div>
+					
+					<div class="col-3">
+						<div class="form-group">
+							<label for="doc_name"><b>Departments</b></label>
+							<input type="text" class="form-control" placeholder="Type a name OR Keyword"/>
+						</div>
+					
+					</div>
+					
+					<div class="col-3">
+						<div class="form-group">
+							<label for="doc_name"><b>Locations</b></label>
+							<input type="text" class="form-control" placeholder="Type a name OR Keyword"/>
+						</div>
+					</div>
+					
+					<div class="col-3">
+						<div class="form-group">
+							<button type="button" class="btn btn-primary btn-block ">Button</button>
+						</div>
+					</div>
+					
+				</div>
+				
+			</div>
+				<br>
+				<br>
+				
+		<div class="row">
+			<div class="col-12">
+			
+				<div class="btn-group">
+					<button type="button" class="btn btn-primary rounded m-3" data-bs-toggle="collapse" data-bs-target="#all">All</button> 
+					<button type="button" class="btn btn-outline-primary rounded m-3 " data-bs-toggle="collapse" data-bs-target="#cardio" >Cardiology</button> 
+					<button type="button" class="btn btn-outline-primary rounded m-3 " data-bs-toggle="collapse" data-bs-target="#pedia">Pediatrics</button>
+					<button type="button" class="btn btn-outline-primary rounded m-3 " data-bs-toggle="collapse" data-bs-target="#dermi">Dermitologist</button>
+					<button type="button" class="btn btn-outline-primary rounded m-3 " data-bs-toggle="collapse" data-bs-target="#ortho">Orthopedics</button> 
+					
+				</div>
+				
+				<div>
+				
+				</div>
+				
+			</div>
+			
+</div>
+			
+		<!-- Card-->
+		<div class="container" >
+		<div id="accordian">
+			<li class="list-group-item" data-bs-toggle="collapse" data-bs-target="#all">
+		<div id="all" class="collapse show" data-bs-parent="#accordian">
+			<div class="row">
+				<div class="col-3">
+					<div class="card">
+						<img src="" class="card-img-top">
+						<div class="card-body">
+							<h4 class="card-title">Dr. Amelia Brooks</h4>
+							<div class="card-text">Cardiologist • MD, FACC</div>
+							<br>
+								<p>Nostrud tempor magna minim excepteur, id cillum laboris aute proident.</p>
+								<br>
+								<span class="badge bg-success rounded">Cardiology</span>
+								<br>
+								<br>
+								<a href="#" class="btn btn-primary rounded">Book Appointment</a>
+								<br>
+								<br>
+								<a href="#" class="btn btn-outline-primary rounded">View Profile</a>
+						</div>
+					</div>
+				
+				</div>
+				
+				<div class="col-3">
+					<div class="card">
+						<img src="" class="card-img-top">
+						<div class="card-body">
+							<h4 class="card-title">Dr. Noah Turner</h4>
+							<div class="card-text">Pediatrician • DO</div>
+							<br>
+								<p>Quis irure pariatur sed eiusmod, elit laboris consequat cupidatat.</p>
+								<br>
+								<span class="badge bg-success rounded">Pediatrics</span>
+								<br>
+								<br>
+								<a href="#" class="btn btn-primary rounded">Book Appointment</a>
+								<br>
+								<br>
+								<a href="#" class="btn btn-outline-primary rounded">View Profile</a>
+						</div>
+					</div>
+				
+				</div>
+				
+				<div class="col-3">
+					<div class="card">
+						<img src="" class="card-img-top">
+						<div class="card-body">
+							<h4 class="card-title">Dr. Sofia Bennett</h4>
+							<div class="card-text">Dermatologist • MBBS, MD</div>
+							<br>
+								<p>Dolor commodo laboris lorem ad, amet consequat mollit deserunt.</p>
+								<br>
+								<span class="badge bg-success rounded">Dermatologist</span>
+								<br>
+								<br>
+								<a href="#" class="btn btn-primary rounded">Book Appointment</a>
+								<br>
+								<br>
+								<a href="#" class="btn btn-outline-primary rounded">View Profile</a>
+						</div>
+					</div>
+				
+				</div>
+				
+				<div class="col-3">
+					<div class="card" >
+						<img src="" class="card-img-top">
+						<div class="card-body">
+							<h4 class="card-title">Dr. Ethan Cole</h4>
+							<div class="card-text">Orthopedic Surgeon • MS, FRCS</div>
+							<br>
+								<p>Dolor commodo laboris lorem ad, amet consequat mollit deserunt.</p>
+								<br>
+								<span class="badge bg-success rounded">Orthopadic</span>
+								<br>
+								<br>
+								<a href="#" class="btn btn-primary rounded">Book Appointment</a>
+								<br>
+								<br>
+								<a href="#" class="btn btn-outline-primary rounded">View Profile</a>
+						</div>
+					</div>
+				
+				</div>
+				
+				
+			
+			
+		</div>	
+		
+				
+		<div class="row m-4">
+				<div class="col-3">
+					<div class="card">
+						<img src="" class="card-img-top">
+						<div class="card-body">
+							<h4 class="card-title">Dr. Liam Carter</h4>
+							<div class="card-text">Sports Medicine • MD</div>
+							<br>
+								<p>Deserunt pariatur eiusmod duis, officia aute laboris consectetur.</p>
+								<br>
+								<span class="badge bg-success rounded">Orthopedics</span>
+								<br>
+								<br>
+								<a href="#" class="btn btn-primary rounded">Book Appointment</a>
+								<br>
+								<br>
+								<a href="#" class="btn btn-outline-primary rounded">View Profile</a>
+						</div>
+					</div>
+				
+				</div>
+				
+				<div class="col-3">
+					<div class="card">
+						<img src="" class="card-img-top">
+						<div class="card-body">
+							<h4 class="card-title">Dr. Maya Patel </h4>
+							<div class="card-text">Interventional Cardiologist • MD</div>
+							<br>
+								<p>Cupidatat fugiat sint enim laboris, sed do ut aliquip dolor.</p>
+								<br>
+								<span class="badge bg-success rounded">Cardiology</span>
+								<br>
+								<br>
+								<a href="#" class="btn btn-primary rounded">Book Appointment</a>
+								<br>
+								<br>
+								<a href="#" class="btn btn-outline-primary rounded">View Profile</a>
+						</div>
+					</div>
+				
+				</div>
+				
+				<div class="col-3">
+					<div class="card">
+						<img src="" class="card-img-top">
+						<div class="card-body">
+							<h4 class="card-title">Dr. Oliver Hayes</h4>
+							<div class="card-text">Pediatric Specialist • MD</div>
+							<br>
+								<p>Exercitation id ea nisi fugiat, ullamco veniam cillum nostrud.</p>
+								<br>
+								<span class="badge bg-success rounded">Pediatrics</span>
+								<br>
+								<br>
+								<a href="#" class="btn btn-primary rounded">Book Appointment</a>
+								<br>
+								<br>
+								<a href="#" class="btn btn-outline-primary rounded">View Profile</a>
+						</div>
+					</div>
+				
+				</div>
+				
+				<div class="col-3">
+					<div class="card" >
+						<img src="" class="card-img-top">
+						<div class="card-body">
+							<h4 class="card-title">Dr. Harper Lane</h4>
+							<div class="card-text">Cosmetic Dermatologist • MD</div>
+							<br>
+								<p>Aliquip laboris anim minim, irure commodo qui occaecat velit.</p>
+								<br>
+								<span class="badge bg-success rounded">Dermitology</span>
+								<br>
+								<br>
+								<a href="#" class="btn btn-primary rounded">Book Appointment</a>
+								<br>
+								<br>
+								<a href="#" class="btn btn-outline-primary rounded">View Profile</a>
+						</div>
+					</div>
+				
+				</div>
+			
+				
+			</div>
+				
+	</div>
+	</li>
+	
+	
+	
+	
+	<!-- Collapse cardio--> 
+		
+			<li class="list-group-item" data-bs-toggle="collapse" data-bs-target="#cardio">
+				
+				<div id="cardio" class="collapse" data-bs-parent="#accordian">
+				<div class="row">
+					<div class="col-3">
+					<div class="card">
+						<img src="" class="card-img-top">
+						<div class="card-body">
+							<h4 class="card-title">Dr. Maya Patel </h4>
+							<div class="card-text">Interventional Cardiologist • MD</div>
+							<br>
+								<p>Cupidatat fugiat sint enim laboris, sed do ut aliquip dolor.</p>
+								<br>
+								<span class="badge bg-success rounded">Cardiology</span>
+								<br>
+								<br>
+								<a href="#" class="btn btn-primary rounded">Book Appointment</a>
+								<br>
+								<br>
+								<a href="#" class="btn btn-outline-primary rounded">View Profile</a>
+						</div>
+					</div>
+				</div>
+			
+				
+				<div class="col-3">
+					<div class="card">
+						<img src="" class="card-img-top">
+						<div class="card-body">
+							<h4 class="card-title">Dr. Amelia Brooks</h4>
+							<div class="card-text">Cardiologist • MD, FACC</div>
+							<br>
+								<p>Nostrud tempor magna minim excepteur, id cillum laboris aute proident.</p>
+								<br>
+								<span class="badge bg-success rounded">Cardiology</span>
+								<br>
+								<br>
+								<a href="#" class="btn btn-primary rounded">Book Appointment</a>
+								<br>
+								<br>
+								<a href="#" class="btn btn-outline-primary rounded">View Profile</a>
+						</div>
+					</div>
+				
+				</div>
+				</div>
+			</li>	
+	<!-- Pediatric-->
+	
+	
+		<li class="list-group-item" data-bs-toggle="collapse" data-bs-target="#pedia">
+			<div id="pedia" class="collapse" data-bs-parent="#accordian">
+					<div class="row">
+						<div class="col-3">
+					<div class="card">
+						<img src="" class="card-img-top">
+						<div class="card-body">
+							<h4 class="card-title">Dr. Oliver Hayes</h4>
+							<div class="card-text">Pediatric Specialist • MD</div>
+							<br>
+								<p>Exercitation id ea nisi fugiat, ullamco veniam cillum nostrud.</p>
+								<br>
+								<span class="badge bg-success rounded">Pediatrics</span>
+								<br>
+								<br>
+								<a href="#" class="btn btn-primary rounded">Book Appointment</a>
+								<br>
+								<br>
+								<a href="#" class="btn btn-outline-primary rounded">View Profile</a>
+						</div>
+					</div>
+				
+				</div>
+				
+				<div class="col-3">
+					<div class="card">
+						<img src="" class="card-img-top">
+						<div class="card-body">
+							<h4 class="card-title">Dr. Noah Turner</h4>
+							<div class="card-text">Pediatrician • DO</div>
+							<br>
+								<p>Quis irure pariatur sed eiusmod, elit laboris consequat cupidatat.</p>
+								<br>
+								<span class="badge bg-success rounded">Pediatrics</span>
+								<br>
+								<br>
+								<a href="#" class="btn btn-primary rounded">Book Appointment</a>
+								<br>
+								<br>
+								<a href="#" class="btn btn-outline-primary rounded">View Profile</a>
+						</div>
+					</div>
+				
+				</div>
+					</div>
+			</div>
+			</li>
+			
+			<!--dermi-->
+			<li class="list-group-item" data-bs-toggle="collapse" data-bs-target="#dermi">
+		<div id="dermi" class="collapse" data-bs-parent="#accordian">
+			<div class="row">
+				<div class="col-3">
+					<div class="card" >
+						<img src="" class="card-img-top">
+						<div class="card-body">
+							<h4 class="card-title">Dr. Harper Lane</h4>
+							<div class="card-text">Cosmetic Dermatologist • MD</div>
+							<br>
+								<p>Aliquip laboris anim minim, irure commodo qui occaecat velit.</p>
+								<br>
+								<span class="badge bg-success rounded">Dermitology</span>
+								<br>
+								<br>
+								<a href="#" class="btn btn-primary rounded">Book Appointment</a>
+								<br>
+								<br>
+								<a href="#" class="btn btn-outline-primary rounded">View Profile</a>
+						</div>
+					</div>
+				
+				</div>
+				
+				<div class="col-3">
+					<div class="card">
+						<img src="" class="card-img-top">
+						<div class="card-body">
+							<h4 class="card-title">Dr. Sofia Bennett</h4>
+							<div class="card-text">Dermatologist • MBBS, MD</div>
+							<br>
+								<p>Dolor commodo laboris lorem ad, amet consequat mollit deserunt.</p>
+								<br>
+								<span class="badge bg-success rounded">Dermatologist</span>
+								<br>
+								<br>
+								<a href="#" class="btn btn-primary rounded">Book Appointment</a>
+								<br>
+								<br>
+								<a href="#" class="btn btn-outline-primary rounded">View Profile</a>
+						</div>
+					</div>
+				
+				</div>
+				
+			</div>
+		</div>
+		</li>
+		
+		
+		<!--Ortho-->
+			<li class="list-group-item" data-bs-toggle="collapse" data-bs-target="#ortho">
+		<div id="ortho" class="collapse" data-bs-parent="#accordian">
+			<div class="row">
+				<div class="col-3">
+					<div class="card">
+						<img src="" class="card-img-top">
+						<div class="card-body">
+							<h4 class="card-title">Dr. Liam Carter</h4>
+							<div class="card-text">Sports Medicine • MD</div>
+							<br>
+								<p>Deserunt pariatur eiusmod duis, officia aute laboris consectetur.</p>
+								<br>
+								<span class="badge bg-success rounded">Orthopedics</span>
+								<br>
+								<br>
+								<a href="#" class="btn btn-primary rounded">Book Appointment</a>
+								<br>
+								<br>
+								<a href="#" class="btn btn-outline-primary rounded">View Profile</a>
+						</div>
+					</div>
+				
+				</div>
+				
+					<div class="col-3">
+					<div class="card" >
+						<img src="" class="card-img-top">
+						<div class="card-body">
+							<h4 class="card-title">Dr. Ethan Cole</h4>
+							<div class="card-text">Orthopedic Surgeon • MS, FRCS</div>
+							<br>
+								<p>Dolor commodo laboris lorem ad, amet consequat mollit deserunt.</p>
+								<br>
+								<span class="badge bg-success rounded">Orthopadic</span>
+								<br>
+								<br>
+								<a href="#" class="btn btn-primary rounded">Book Appointment</a>
+								<br>
+								<br>
+								<a href="#" class="btn btn-outline-primary rounded">View Profile</a>
+						</div>
+					</div>
+				
+				</div>
+			</div>
+		</div>
+		</li>
+		
+		
+		</div>
+	</div>
+	
+	<!-- cardio 
+				<div id="#cardio" class="collapse">
+				<div class="row">
+				
+				<div class="col-3">
+					<div class="card">
+						<img src="" class="card-img-top">
+						<div class="card-body">
+							<h4 class="card-title">Dr. Maya Patel </h4>
+							<div class="card-text">Interventional Cardiologist • MD</div>
+							<br>
+								<p>Cupidatat fugiat sint enim laboris, sed do ut aliquip dolor.</p>
+								<br>
+								<span class="badge bg-success rounded">Cardiology</span>
+								<br>
+								<br>
+								<a href="#" class="btn btn-primary rounded">Book Appointment</a>
+								<br>
+								<br>
+								<a href="#" class="btn btn-outline-primary rounded">View Profile</a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-3">
+					<div class="card">
+						<img src="" class="card-img-top">
+						<div class="card-body">
+							<h4 class="card-title">Dr. Amelia Brooks</h4>
+							<div class="card-text">Cardiologist • MD, FACC</div>
+							<br>
+								<p>Nostrud tempor magna minim excepteur, id cillum laboris aute proident.</p>
+								<br>
+								<span class="badge bg-success rounded">Cardiology</span>
+								<br>
+								<br>
+								<a href="#" class="btn btn-primary rounded">Book Appointment</a>
+								<br>
+								<br>
+								<a href="#" class="btn btn-outline-primary rounded">View Profile</a>
+						</div>
+					</div>
+				
+				</div>
+			</div>
+	</div>-->
+	
+	</body>
+
+</html>
